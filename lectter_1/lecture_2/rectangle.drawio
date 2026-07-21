@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="Wu0m8COo8G_wJvsvXIVO" name="Page-1">
+        <mxGraphModel dx="1207" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;start&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#000000;fillColor=#FF6666;" vertex="1" parent="1">
+                    <mxGeometry x="317.5" y="20" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Display message: &quot;Enter the width of the rectangle&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fillColor=#6666FF;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="130" width="115" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Read width input" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fillColor=#FFFF99;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="240" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Display message: &quot;Enter the width of the rectangle&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fillColor=#6666FF;" vertex="1" parent="1">
+                    <mxGeometry x="295" y="350" width="115" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Read width input" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fillColor=#FFFF99;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="450" width="105" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Calculate area: area width height" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9933;" vertex="1" parent="1">
+                    <mxGeometry x="222.5" y="560" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;End&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#000000;fillColor=#FF6666;" vertex="1" parent="1">
+                    <mxGeometry x="292.5" y="810" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Display message: &quot;Enter the width of the rectangle&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;fillColor=#6666FF;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="680" width="115" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.583;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.559;entryY=0.215;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;entryX=0.458;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.627;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="12" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0.576;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="endArrow=classic;html=1;exitX=0.655;exitY=1.024;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.629;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="14" target="13">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="780" as="sourcePoint"/>
+                        <mxPoint x="490" y="730" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
